@@ -19,7 +19,7 @@ export const clearTokenCache = () => {
 async function getToken(force = false): Promise<string | null> {
   if (!force && tokenCache && tokenCache.expires > Date.now()) return tokenCache.token;
   try {
-    const res: any = await authClient.token();
+    const res: any = await (authClient as any).token();
     const token = res?.data?.token;
     if (token) {
       tokenCache = { token, expires: Date.now() + 10 * 60 * 1000 };
