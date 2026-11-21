@@ -2,10 +2,9 @@
 
 Next.js front end for **Glamora**, a salon appointment booking platform. Customers explore services, request appointments and pay for confirmed bookings via Stripe Checkout. The salon admin manages services, appointments, customers and transactions from a role-based dashboard.
 
-- **Live website:** 
-- **Client repository:** 
-- **Server repository:** 
--
+- **Live website:** https://glamora-saloon-service.vercel.app
+- **Client repository:** https://github.com/priyaahmed007/Glamora-Saloon-Service-ClientSide.git
+- **Server repository:** https://github.com/priyaahmed007/Glamora-Saloon-Service-ServerSide.git
 
 ## Important Features
 
